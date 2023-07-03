@@ -1,0 +1,39 @@
+.header_container {
+          background: url("../../assets/images/coverBg.webp") no-repeat center;
+          background-size: cover;
+          height: 75vh;
+          margin: auto;
+          border-radius: 1rem;
+          margin-top: 1rem;
+          text-align: center;
+          cursor: pointer;
+        }
+
+        .spotlight > h1 {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 1;
+          font-family: "Roboto", Arial, sans-serif;
+          font-size: calc(20px + 2vw);
+          font-weight: 700;
+          color: #fafafa;
+          text-shadow: 2px 2px 2px #000;
+          pointer-events:all;
+          user-select: none;
+          white-space: nowrap;
+        }
+
+        .spotlight {
+          position: absolute;
+          height: 75%;
+          width: 95%;
+          margin: auto;
+          border-radius: 1rem;
+          background-image: radial-gradient(
+            circle,
+            transparent 10px,
+            rgba(0, 0, 0, 0.85) 10px
+          );
+        }
